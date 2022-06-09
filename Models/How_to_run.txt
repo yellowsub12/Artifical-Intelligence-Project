@@ -1,0 +1,6 @@
+To run the code with the desired model use 
+
+modelB = TheModelBClass(*args, **kwargs)
+modelB.load_state_dict(torch.load(PATH), strict=False)
+
+Use modelB for your variable when running the CNN. 
