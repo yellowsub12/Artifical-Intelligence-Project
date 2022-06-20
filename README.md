@@ -1,4 +1,4 @@
-# AI Face Mask Detector (Phase I)
+# AI Face Mask Detector 
 
 The purpose of this project is to a use Convolutional Neural Network (CNN) to train and test our program into recognizing what type of mask a person is wearing. The types of masks are Surgical, Cloth, N95 and there's also NoMask. Thus using the principles of Deep Learning with a vision-based neural network. 
 
