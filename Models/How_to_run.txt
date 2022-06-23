@@ -6,10 +6,13 @@ modelB.load_state_dict(torch.load(PATH), strict=False)
 Use modelB for your variable when running the CNN. 
 
 To run the program.
-1) Download the dataset
+1) Download the datasets (regular and bias).
 2) Make sure you have all the imports installed already.
-2) Update the path in line 13, meaning dataset = torchvision.datasets.ImageFolder('/Users/jgold/Documents/GitHub/Artifical-Intelligence-Project/Dataset', 
+2) Update the all the paths, for example, dataset = torchvision.datasets.ImageFolder('/Users/jgold/Documents/GitHub/Artifical-Intelligence-Project/Dataset', 
                                                 transform=transformation) for the dataset 
 3) Run the program.
 
 You're set!
+
+Note : If you run into errors like BrokenPipe Err, then change the num_workers to 0 at whichever part is causing the issue!
+This happens due to multithreading settings on the PC.
